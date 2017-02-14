@@ -1,0 +1,113 @@
+html { background: #333333; text-align: center; height: 100%; min-height: 100%;}
+
+body { background: #333333; }
+
+table {
+    margin: 100px auto;
+}
+
+h1 {
+         color:#AAAAAA;
+         font: normal 9.0em 'Trebuchet MS', Verdana, Arial, sans-serif;
+}
+
+p {
+         color:#AAAAAA;
+         font: normal 5.0em 'Trebuchet MS', Verdana, Arial, sans-serif;
+}
+
+a.stop_button, a.stop_button:visited 
+{
+        color:#FFFFFF; 
+        background:#FF0000; 
+        font: normal 8.0em 'Trebuchet MS', Verdana, Arial, sans-serif;
+        border: solid 3px #232323; 
+        text-decoration:none; 
+        padding:8px 16px;
+        display: block;
+        height: 150px;
+        width: 350px;
+        margin: 12px auto;
+}
+
+a.vol_button, a.vol_button:visited 
+{
+        color:#000000; 
+        background:#AAAAAA; 
+        font: normal 6.0em 'Trebuchet MS', Verdana, Arial, sans-serif;
+        border: solid 3px #232323; 
+        text-decoration:none; 
+        padding:16px;
+        display: block;
+        height: 130px;
+        min-width: 180px;
+        margin: 12px;
+}
+
+a.shutdown_button, a.shutdown_button:visited 
+{
+        color:#FFFFFF; 
+        background:#FF0000; 
+        font: normal 8.0em 'Trebuchet MS', Verdana, Arial, sans-serif;
+        border: solid 3px #232323; 
+        text-decoration:none; 
+        padding:8px 16px;
+        display: block;
+        height: 150px;
+        width: 700px;
+        margin: 12px auto;
+}
+
+a.reboot_button, a.reboot_button:visited 
+{
+        color:#FFFFFF; 
+        background:#00FF00; 
+        font: normal 8.0em 'Trebuchet MS', Verdana, Arial, sans-serif;
+        border: solid 3px #232323; 
+        text-decoration:none; 
+        padding:8px 16px;
+        display: block;
+        height: 150px;
+        width: 700px;
+        margin: 12px auto;
+}
+
+a.simple_button, a.simple_button:visited 
+{
+        color:#000000; 
+        background:#AAAAAA; 
+        font: normal 1.0em 'Trebuchet MS', Verdana, Arial, sans-serif;
+        border: solid 3px #232323; 
+        text-decoration:none; 
+        padding:16px;
+        height: 130px;
+        min-width: 180px;
+        margin: 12px;
+}
+
+select.dropdown 
+{
+        color:#000000; 
+        background:#AAAAAA; 
+        font: normal 6.0em 'Trebuchet MS', Verdana, Arial, sans-serif;
+        text-decoration:none;           
+        padding:16px;
+        display: block;
+        height: 150px;
+        width: 550px;
+        margin: 12px auto;
+}
+
+input.submit 
+{
+        color:#000000; 
+        background:#00FF00; 
+        font: normal 5.0em 'Trebuchet MS', Verdana, Arial, sans-serif;
+        text-decoration:none;           
+        padding:26px;
+        display: block;
+        height: 150px;
+        width: 350px;
+        margin: 120px auto;
+}
+
