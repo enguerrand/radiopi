@@ -4,7 +4,6 @@ source ../config/scripts.conf
 source $BASEDIR/scripts/inc_lock.sh
 lock $LOCK_NAME
 source $BASEDIR/scripts/inc_error.sh 
-source $STATIONS_CONF
 mkdir -p $STATUS_DIR
 
 # check previous process
@@ -15,6 +14,7 @@ fi
 
 STN=$1
 [ -z $STN ] && abort "No station name given"
+source <(grep "^${STN}=" $STATIONS_CONF)
 URL=${!STN}
 [ -z $URL ] && abort "Station \"$STN\" not found"
 echo $URL
