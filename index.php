@@ -9,7 +9,7 @@
 
     elseif ($_GET['start']) {
         $stn=$_GET['start']; 
-        exec("$BASE_PATH/scripts/start.sh ".$stn." > /tmp/radio.log 2>&1 &");
+        exec("$BASE_PATH/scripts/start.sh ".$stn." > /tmp/radio.log 2>&1");
         sleep (3);
         header('Location: '.$BASE_URL);
         exit;
