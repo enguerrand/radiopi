@@ -16,3 +16,7 @@ Installation:
 - clone the repo into a directory that the webserver has access to (e.g. /var/www/html/radiopi on raspbian jessie)
 - optionally configure sudo as mentioned above
 - adjust contents of files in config as needed. (I believe they are reasonably self-explanatory)
+- especially adjust the variables $BASE_URL in config/frontend.php and BASEDIR in config/scripts.conf
+- ensure that the directory status and its contents are read/writable for the webserver
+- ensure that the webserver user is in the audio group. ("usermod -a -G audio www-data")
+
